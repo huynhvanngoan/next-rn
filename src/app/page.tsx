@@ -1,12 +1,9 @@
-import { Button } from "antd";
+import HomePage from "@/components/layout/homepage";
 
 export default function Home() {
-    return (
-        <div>
-            <p>Hello, world</p>
-            <div>
-                <Button type="primary">Add new</Button>
-            </div>
-        </div>
-    );
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
